@@ -51,6 +51,20 @@ napíseme funkciu na premenu binárneho reťazca na IP adresu (v dekadickom tvar
 napíšeme funkciu na výpočet siete (logický súčin), kt. urobí log. súčin bin. reťazca IP a bin. reťazca masky a následne prevedie tento výsledok na IP adrersu v dekadickom tvare
 
 
+## Vyskúšajme aké vstupy dostaneme pre tieto vstupy...
+
+      ip1 = '192.168.2.10'
+   
+      maska11 = '255.255.255.0'
+
+      ip2 = '192.168.2.225'
+
+      maska2 = '255.255.255.0'
+
+
+Urobme si to v súbore ip1.py  - použijeme ten istý kód zo súboru ip0.py len zmeníme vstupy.
+
+
 
 
 
