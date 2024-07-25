@@ -55,7 +55,7 @@ napíšeme funkciu na výpočet siete (logický súčin), kt. urobí log. súči
 
       ip1 = '192.168.2.10'
    
-      maska11 = '255.255.255.0'
+      maska1 = '255.255.255.0'
 
       ip2 = '192.168.2.225'
 
@@ -64,7 +64,16 @@ napíšeme funkciu na výpočet siete (logický súčin), kt. urobí log. súči
 
 Urobme si to v súbore ip1.py  - použijeme ten istý kód zo súboru ip0.py len zmeníme vstupy.
 
+## Ponúka sa otázka: Ak dve zariadenia s rôznymi IP adresámi majú rovnakú masku budú stále v jednej sieti ???
+Podľa výstupu v súbore ip1.py by to mohlo tak vyzerať. Skúsme teda iné vystupy.:
 
+      ip1 = '192.168.1.10' 
+      maska1 = '255.255.255.0'
+      ip2 = '192.168.2.20'
+      maska2 = '255.255.255.0'
+
+
+Ok, vyskúšame to znovu s tým istým kódom, ale urobíme to v novom súbore ip2.py
 
 
 
